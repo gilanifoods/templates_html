@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title>جوکوله</title>
+        <link rel="stylesheet" href="../../../static/css/جوکوله.css">
+    </head>
+    <body dir="rtl" align="center">
+        <header>
+            <div id="d1"><h1>به گیلانی فوودز خوش آمدید</h1></div>
+            <h1>معدن غذا های گیلانی</h1>
+        </header>
+        <fieldset>
+            <legend>راهنما</legend>
+            <nav>
+                <a class="w" href="#q">تاریخچه</a>
+                <br>
+                <a class="w" href="#qq">مواد لازم</a>
+                <br>
+                <a class="w" href="#qqq">طرز تهیه</a>
+            </nav>
+        </fieldset>
+        <br>
+        <article>
+            <h1>جوکوله</h1>
+            <img src="../../../static/aks/جوکوله.jpg" alt="عکس جوکوله" width="600px" height="600px">
+            <br>
+            <br>
+            <h1 id="q">تاریخچه</h1>
+            <p>جوکوله یکی از غذا های خیلی اصیل گیلانی است که کمتر کسی اسمش به گوشش خورده و ترکیبی از برنج و گردو است،این غدا بسیارمقوی است و برای سلامتی بسیار خوب است زیرا همه ی مواد اولیه آن باید به صورت دستی حاضر شود؛ در گیلان همه ی مواد آن را خود آشپز در اختیار دارد.</p>
+            <br>
+            <h1  id="qq">مواد لازم</h1>
+            <ul align="right">
+                <li>برنج(نیم دانه)</li>
+                <li>گردو (آسیاب شده)</li>
+                <li>فلفل</li>
+                <li>کره</li>
+            </ul>
+            <br>
+            <h1 id="qqq">طرز تهیه</h1>
+            <ol align="right">
+                <li>برنج کته  درست می کنیم <q>ته دیگ نداشته باشه.</q></li>
+                <br>
+                <li>برنج رو با مقداری کره توی یک تابه سرخ می کنیم.</li>
+                <br>
+                <li>گردوی آسیاب شده رو کم کم با فلفل بهش اضافه می کنیم.</li>
+                <br>
+                <li>کمی با کفگیر مثل فیلم هم میزنیم که به ته تابه نچسبه.</li>
+            </ol>
+            <br>
+            <h1>ویدیو طرز تهیه</h1>
+            <video src="../../../static/film/جوکوله.mp4" width="600px" height="600px" controls></video>
+            <br>
+            <div id="d2"><h1>تره نوش جان</h1></div>
+            <br><br>
+            <h4>برای وارد کردن نظرات خود روی لینک زیر کلیک کنید.<h4>
+                <hr>
+                <li align="center">
+                    <a href="{% url 'comment_form'%}">نظرات خود را برای ما بفرستید</a>
+                </li>
+            <br><br>
+            <div id="d4">
+                <a href="{% url 'اشپل کوکو' %}">
+                    <img src="../../../static/aks/اشپل کوکو.jpg" alt="" width="25%" height="30%" align="right">
+                    <br>
+                    <h2 align="right">طرز تهیه اشپل کوکو</h2>
+                </a>
+                <br>
+                <hr>
+                <a href="{% url 'رشته خشکار' %}">
+                    <img src="../../../static/aks/رشته خشکار.jpg" alt="" width="25%" height="30%" align="right">
+                    <br>
+                    <h2 align="right">طرز تهیه رشته خوشکار</h2>
+                </a>
+                <br>
+                <hr>
+                <a href="{% url 'جغول مغول' %}">
+                    <img src="../../../static/aks/جقول.jpg" alt="" width="25%" height="30%" align="right">
+                    <br>
+                    <h2 align="right">طرز تهیه جقول مغول</h2>
+                </a>
+                <br>
+            </div>
+            <br>
+            <br>
+        </article>
+    </body>
+</html>
